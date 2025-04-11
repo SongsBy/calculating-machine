@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Practice1" parent="Theme.Material3.DayNight">
+        <item name="colorPrimary">#639E98</item>
+        <item name="colorOnPrimary">#ffffff</item>
+        <item name="colorOnSurface">#32737C</item>
+        <item name="actionBarStyle">@style/actionBar</item>
+    </style>
+
+
+    <style name="Theme.Practice1" parent="Base.Theme.Practice1" />
+
+
+    <style name="actionBar" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+    <item name="background">@color/actionbar_bg</item>
+
+    </style>
+</resources>
